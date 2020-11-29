@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="11" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Loan Department" duration-ms="108" started-at="2020-03-19T05:30:31Z" finished-at="2020-03-19T05:30:31Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Day2.ploan()[pri:0, instance:test.Day2@62ee68d8]" name="ploan" class="test.Day2"/>
+        <method signature="Day3.Mobileloginhomeloan()[pri:0, instance:test.Day3@9629756]" name="Mobileloginhomeloan" class="test.Day3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="car loan" duration-ms="74" started-at="2020-03-19T05:30:31Z" finished-at="2020-03-19T05:30:31Z">
+      <class name="test.Day3">
+        <test-method status="PASS" signature="Bfsuite()[pri:0, instance:test.Day3@9629756]" name="Bfsuite" is-config="true" duration-ms="16" started-at="2020-03-19T05:30:31Z" finished-at="2020-03-19T05:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bfsuite -->
+      </class> <!-- test.Day3 -->
+      <class name="test.Day4">
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:test.Day4@4501b7af]" name="beforeevery" is-config="true" duration-ms="1" started-at="2020-03-19T05:30:31Z" finished-at="2020-03-19T05:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="LoginAPIcarloan()[pri:0, instance:test.Day4@4501b7af]" name="LoginAPIcarloan" duration-ms="12" started-at="2020-03-19T05:30:31Z" finished-at="2020-03-19T05:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIcarloan -->
+        <test-method status="PASS" signature="beforeevery()[pri:0, instance:test.Day4@4501b7af]" name="beforeevery" is-config="true" duration-ms="3" started-at="2020-03-19T05:30:31Z" finished-at="2020-03-19T05:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeevery -->
+        <test-method status="PASS" signature="weblogincarloan()[pri:0, instance:test.Day4@4501b7af]" name="weblogincarloan" duration-ms="4" started-at="2020-03-19T05:30:31Z" finished-at="2020-03-19T05:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- weblogincarloan -->
+      </class> <!-- test.Day4 -->
+      <class name="test.Tng1">
+        <test-method status="PASS" signature="afsuite()[pri:0, instance:test.Tng1@735b5592]" name="afsuite" is-config="true" duration-ms="1" started-at="2020-03-19T05:30:31Z" finished-at="2020-03-19T05:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afsuite -->
+      </class> <!-- test.Tng1 -->
+    </test> <!-- car loan -->
+    <test name="Personalloan" duration-ms="108" started-at="2020-03-19T05:30:31Z" finished-at="2020-03-19T05:30:31Z">
+      <class name="test.Day2">
+        <test-method status="PASS" signature="prerequiste()[pri:0, instance:test.Day2@62ee68d8]" name="prerequiste" is-config="true" duration-ms="1" started-at="2020-03-19T05:30:31Z" finished-at="2020-03-19T05:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequiste -->
+        <test-method status="PASS" signature="ploan()[pri:0, instance:test.Day2@62ee68d8]" name="ploan" duration-ms="16" started-at="2020-03-19T05:30:31Z" finished-at="2020-03-19T05:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ploan -->
+      </class> <!-- test.Day2 -->
+      <class name="test.Day3">
+        <test-method status="PASS" signature="LoginAPIhomeloan()[pri:0, instance:test.Day3@9629756]" name="LoginAPIhomeloan" duration-ms="4" started-at="2020-03-19T05:30:31Z" finished-at="2020-03-19T05:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAPIhomeloan -->
+        <test-method status="PASS" signature="Mobileloginhomeloan()[pri:0, instance:test.Day3@9629756]" name="Mobileloginhomeloan" duration-ms="5" started-at="2020-03-19T05:30:31Z" finished-at="2020-03-19T05:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobileloginhomeloan -->
+        <test-method status="PASS" signature="webloginHomeloan(java.lang.String, java.lang.String)[pri:0, instance:test.Day3@9629756]" name="webloginHomeloan" duration-ms="9" started-at="2020-03-19T05:30:31Z" finished-at="2020-03-19T05:30:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Personalloan.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webloginHomeloan -->
+      </class> <!-- test.Day3 -->
+      <class name="test.Tng1">
+        <test-method status="PASS" signature="Demo()[pri:0, instance:test.Tng1@735b5592]" name="Demo" duration-ms="10" started-at="2020-03-19T05:30:31Z" finished-at="2020-03-19T05:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="lastexecution()[pri:0, instance:test.Tng1@735b5592]" name="lastexecution" is-config="true" duration-ms="3" started-at="2020-03-19T05:30:31Z" finished-at="2020-03-19T05:30:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lastexecution -->
+      </class> <!-- test.Tng1 -->
+    </test> <!-- Personalloan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
